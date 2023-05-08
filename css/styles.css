@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 
 body {
     font-size: 15px;
@@ -216,12 +216,18 @@ body {
   
   }
   
-  @media (max-width: 700px) {
+  @media (max-width: 768px) {
     .top {
       grid-template-areas:
         "hero hero"
         "cta1 cta2"
     }
+
+    .wrapper {
+      display: grid;
+      place-content: center;
+    }
+
     /* About */
     .about {
       grid-template-columns: 1fr;
@@ -236,4 +242,9 @@ body {
         "cta1"
         "cta2"
     }
+    .wrapper {
+      display: grid;
+      place-content: center;
+    }
   }
+
