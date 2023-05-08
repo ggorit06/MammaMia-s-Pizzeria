@@ -99,7 +99,7 @@ body {
   
   .menu a {
     background: var(--tomato);
-    display: block;
+    display: inline-block;
     text-decoration: none;
     padding: 10px;
     text-align: center;
