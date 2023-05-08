@@ -247,5 +247,9 @@ body {
       display: grid;
       place-content: center;
     }
+      
+       .menu ul {
+      display: inline-grid;
+    }
   }
 
